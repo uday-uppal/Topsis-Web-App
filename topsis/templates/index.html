@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topsis Web App</title>
+    <style>
+        .title {
+            text-align: center;
+            color: crimson;
+        }
+
+        body {
+            background-color: azure;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+
+        }
+
+
+        .textbox {
+            height: 20px;
+            margin: 5px;
+        }
+
+        .capsule {
+            height: 100px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .outercapsule {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 60vw;
+            padding: 30px;
+            padding-top: 30px;
+            margin-left: 300px;
+
+            /* flex-wrap: wrap; */
+        }
+
+        .button {
+            width: 200px;
+            height: 20px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">Topis Web app</h1>
+
+    <form method="POST" enctype="multipart/form-data" class="outercapsule">
+        {% csrf_token %}
+        <!-- <div class="outercapsule">
+            <div class='capsule' style="display: flex; flex-direction: row; ">
+                <h3 class="text">File</h3><input class='textbox' type="file" name="dataset">
+            </div>
+            <div class='capsule' style="display: flex; flex-direction: row; ">
+                <h3 class="text">Weights</h3><input class='textbox' type="text" ,placeholder='1,1,0.5' name="weight">
+            </div>
+            <div class='capsule' style="display: flex; flex-direction: row; ">
+                <h3 class="text">Impacts</h3><input class='textbox' type="text" ,placeholder="+,-,+" name="impact">
+            </div>
+            <div class='capsule' style="display: flex; flex-direction: row; ">
+                <h3 class="text">Email ID</h3><input class='textbox' type="email" , placeholder="example@example.com"
+                    name="email">
+            </div> -->
+        {{form}}
+        <input class='button' type="submit" value="Submit">
+        <!-- </div> -->
+    </form>
+
+</body>
+<script type="text/javascript">
+
+</script>
+
+</html>
