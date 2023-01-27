@@ -9,7 +9,7 @@ Python package is available at https://pypi.org/project/Topsis-Uday-102053008/
   ### How to INSTALL  
   - pip install TOPSIS-Uday-102053008 
   - Topsis-Uday-102053008 <InputDataFile> <Weights> <Impacts> <ResultFileName> 
-  - ✨Magic ✨ ### Example  - Topsis-Uday-102053008 '102053008-data.csv' '1,1,1,1,1' '+,-,+,+,+' '102053008-result.csv' 
+  - ✨Magic ✨Example  - Topsis-Uday-102053008 '102053008-data.csv' '1,1,1,1,1' '+,-,+,+,+' '102053008-result.csv' 
    ### Application 
    - The algorithm could be used to rank different choices according to its impact and weight associated with each columns. The output is the rank of each choice with numerically lower rank is the preferred option and vice versa. 
   ### License  
