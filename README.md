@@ -1,8 +1,8 @@
 # Topsis-Web-App
 
-Python package is available at https://pypi.org/project/Topsis-Uday-102053008/ 
-
 Web App is Live on http://uday1234.pythonanywhere.com/
+
+Python package is available at https://pypi.org/project/Topsis-Uday-102053008/ 
 
 # TOPSIS-Uday-102053008 
   The package enables you to perform TOPSIS Multi Criteria Decision Making on the input csv file. The package outputs the csv file containing additional 2 columns, the TOPSIS SCORE and RANK assigned by the Topsis algorithm.
